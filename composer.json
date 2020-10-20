@@ -1,0 +1,21 @@
+{
+  "name": "charlie/grpc",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "",
+  "authors": [
+    {
+      "name": "charlie_chiu",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "grpc/grpc": "^1.30",
+    "google/protobuf": "v3.13.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "php"
+    }
+  }
+}
